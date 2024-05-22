@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TITLE -->
+    <title>Crimson Games | Buy Game Keys</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/fav/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/fav/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/fav/favicon-16x16.png" />
+    <link rel="manifest" href="./assets/fav/site.webmanifest" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <!-- MATERIAL SYMBOLS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body class="body font-base">
+    <!-- LAYOUT -->
+    <div class="layout flex-col-center">
+      <!-- HEADER -->
+      <header class="header flex-col-center">
+        <!-- HEADER: TOP -->
+        <div class="header--top flex-row-between">
+          <!-- LOGO -->
+          <figure class="logo" onclick="scrollToTop()">
+            <img src="./assets/img/logo.webp" alt="Crimson Games" />
+          </figure>
+          <!-- SEARCH -->
+          <form class="search flex-row-center">
+            <span class="material-symbols-outlined">search</span>
+            <input class="font-base" type="text" placeholder="SEARCH OUR GAMES..." />
+          </form>
+          <!-- NAV -->
+          <nav class="nav flex-row-end">
+            <a><span class="material-symbols-outlined">home</span></a>
+            <a><span class="material-symbols-outlined">account_circle</span></a>
+            <a><span class="material-symbols-outlined">storefront</span></a>
+            <a><span class="material-symbols-outlined">shopping_cart</span></a>
+          </nav>
+        </div>
+        <!-- HEADER: BOTTOM -->
+        <div class="header--bottom flex-row-between">
+          <!-- SEARCH -->
+          <form class="search flex-row-center">
+            <span class="material-symbols-outlined">search</span>
+            <input class="font-base" type="text" placeholder="SEARCH OUR GAMES..." />
+          </form>
+        </div>
+      </header>
+      <!-- MAIN -->
+      <main class="main">
+        <!-- HERO -->
+        <section class="hero flex-row-center">
+          <!-- HERO: LEFT -->
+          <div class="hero--left flex-col-center">
+            <h2>Unlock Your Next<span>Gaming Adventure</span></h2>
+            <h3>Your Pocket-Friendly Portal To Gaming</h3>
+            <!-- HERO: CTA -->
+            <div class="hero__cta flex-row-center">
+              <a href="#">GO TO STORE</a>
+              <!-- USERS -->
+              <div class="users">
+                <img src="./assets/img/users/luigi.webp" />
+                <img src="./assets/img/users/bowser.webp" />
+                <img src="./assets/img/users/peach.webp" />
+              </div>
+              <p>+1000 Users Prefer<span>Crimson Games</span></p>
+            </div>
+          </div>
+          <!-- HERO: RIGHT -->
+          <figure class="hero--right">
+            <img src="./assets/img/hero/mario.webp" alt="Mario" draggable="false" />
+          </figure>
+        </section>
+        <!-- FEATURED -->
+        <section class="featured flex-col-start">
+          <h3>Featured Games</h3>
+          <!-- SLIDER -->
+          <div class="slider">
+            <!-- SLIDER: LEFT -->
+            <div class="slider--left flex-row-center">
+              <span class="material-symbols-outlined">chevron_left</span>
+            </div>
+            <!-- SLIDER: RIGHT -->
+            <div class="slider--right flex-row-center">
+              <span class="material-symbols-outlined">chevron_right</span>
+            </div>
+            <!-- SLIDER: CARDS -->
+            <div class="slider__cards flex-row-start"></div>
+          </div>
+        </section>
+        <!-- NEWS -->
+        <section class="news flex-col-start">
+          <h3>Latest News</h3>
+          <!-- NEWS: CONTENT -->
+          <div class="news__content flex-row-between">
+            <!-- NEWS: LEFT -->
+            <div class="news--left flex-row-between">
+              <!-- NEW -->
+              <div class="new" style="background-image: url('./assets/img/news/sea-of-stars.webp')">
+                <div class="new__details">
+                  <p class="new__date">Aug 29, 2023</p>
+                  <p class="new__title">Sea of Stars</p>
+                </div>
+                <div class="new__overlay"></div>
+              </div>
+            </div>
+            <!-- NEWS: RIGHT -->
+            <div class="news--right flex-row-between">
+              <!-- NEW -->
+              <div class="new" style="background-image: url('./assets/img/news/blasphemous-2.webp')">
+                <div class="new__details">
+                  <p class="new__date">Aug 24, 2023</p>
+                  <p class="new__title">Blasphemous 2</p>
+                </div>
+                <div class="new__overlay"></div>
+              </div>
+              <!-- NEW -->
+              <div class="new" style="background-image: url('./assets/img/news/octopath-traveler-ii.webp')">
+                <div class="new__details">
+                  <p class="new__date">Feb 24, 2023</p>
+                  <p class="new__title">Octopath Traveler II</p>
+                </div>
+                <div class="new__overlay"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer flex-col-center">
+        <figure class="logo" onclick="scrollToTop()"><img src="./assets/img/logo.webp" alt="Crimson Games" /></figure>
+        <p>© Crimson Games, All Rights Reserved.</p>
+        <p>Crafted with ❤️ by <a href="#">José Simón Ovando A.</a></p>
+      </footer>
+    </div>
+    <!-- SCRIPT -->
+    <script src="./assets/js/games.js"></script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/scroll.js"></script>
+  </body>
+</html>

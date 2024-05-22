@@ -1,0 +1,796 @@
+{
+  "games": [
+    {
+      "id": 1,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/diablo-iv.webp",
+      "title": "Diablo IV",
+      "genres": ["Action RPG", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 32
+      }
+    },
+    {
+      "id": 2,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/final-fantasy-xvi.webp",
+      "title": "Final Fantasy XVI",
+      "genres": ["Action RPG", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 3,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/street-fighter-6.webp",
+      "title": "Street Fighter 6",
+      "genres": ["Fighting", "Action"],
+      "prices": {
+        "base": 30,
+        "final": 27
+      }
+    },
+    {
+      "id": 4,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/god-of-war.webp",
+      "title": "God of War: Ragnarök",
+      "genres": ["Action", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 5,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/horizon.webp",
+      "title": "Horizon: Forbidden West",
+      "genres": ["Action RPG", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 15
+      }
+    },
+    {
+      "id": 6,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/demons-souls.webp",
+      "title": "Demon's Souls",
+      "genres": ["Action RPG", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 27
+      }
+    },
+    {
+      "id": 7,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/gran-turismo-7.webp",
+      "title": "Gran Turismo 7",
+      "genres": ["Racing", "Sports"],
+      "prices": {
+        "base": 40,
+        "final": 28
+      }
+    },
+    {
+      "id": 8,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/ratchet-and-clank.webp",
+      "title": "Ratchet & Clank: Rift Apart",
+      "genres": ["Platform", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 20
+      }
+    },
+    {
+      "id": 9,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/destruction-allstars.webp",
+      "title": "Destruction AllStars",
+      "genres": ["Vehicular Combat", "Action"],
+      "prices": {
+        "base": 30,
+        "final": 15
+      }
+    },
+    {
+      "id": 10,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/honkai-star-rail.webp",
+      "title": "Honkai Star Rail",
+      "genres": ["RPG", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 15
+      }
+    },
+    {
+      "id": 11,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/wildhearts.webp",
+      "title": "Wildhearts",
+      "genres": ["Action RPG", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 12,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/spider-man.webp",
+      "title": "Spider-Man: Miles Morales",
+      "genres": ["Fighting", "Platform"],
+      "prices": {
+        "base": 30,
+        "final": 24
+      }
+    },
+    {
+      "id": 13,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/legacy-of-thieves.webp",
+      "title": "Legacy of Thieves",
+      "genres": ["Platform", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 24
+      }
+    },
+    {
+      "id": 14,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/the-last-of-us.webp",
+      "title": "The Last of Us",
+      "genres": ["Shooter", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 27
+      }
+    },
+    {
+      "id": 15,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/returnal.webp",
+      "title": "Returnal",
+      "genres": ["Shooter", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 24
+      }
+    },
+    {
+      "id": 16,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/control.webp",
+      "title": "Control",
+      "genres": ["Action", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 21
+      }
+    },
+    {
+      "id": 17,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/ciberpunk-2077.webp",
+      "title": "Ciberpunk 2077",
+      "genres": ["RPG", "Shooter"],
+      "prices": {
+        "base": 30,
+        "final": 15
+      }
+    },
+    {
+      "id": 18,
+      "platform": "playstation",
+      "image": "./assets/img/playstation/a-big-adventure.webp",
+      "title": "Sackboy: A Big Adventure",
+      "genres": ["Platform", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 20
+      }
+    },
+    {
+      "id": 19,
+      "platform": "switch",
+      "image": "./assets/img/switch/tears-of-the-kingdom.webp",
+      "title": "Tears of the Kingdom",
+      "genres": ["Adventure", "Action"],
+      "prices": {
+        "base": 40,
+        "final": 24
+      }
+    },
+    {
+      "id": 20,
+      "platform": "switch",
+      "image": "./assets/img/switch/super-mario-odyssey.webp",
+      "title": "Super Mario Odyssey",
+      "genres": ["Adventure", "Platform"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 21,
+      "platform": "switch",
+      "image": "./assets/img/switch/new-horizons.webp",
+      "title": "Animal Crossing",
+      "genres": ["Social Simulation", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 32
+      }
+    },
+    {
+      "id": 22,
+      "platform": "switch",
+      "image": "./assets/img/switch/super-smash-bros.webp",
+      "title": "Super Smash Bros. Ultimate",
+      "genres": ["Adventure", "Platform"],
+      "prices": {
+        "base": 30,
+        "final": 27
+      }
+    },
+    {
+      "id": 23,
+      "platform": "switch",
+      "image": "./assets/img/switch/shredders-revenge.webp",
+      "title": "Shredder's Revenge",
+      "genres": ["Adventure", "Beat'em Up"],
+      "prices": {
+        "base": 30,
+        "final": 24
+      }
+    },
+    {
+      "id": 24,
+      "platform": "switch",
+      "image": "./assets/img/switch/the-end-of-yorha.webp",
+      "title": "NieR: Automata",
+      "genres": ["Action RPG", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 28
+      }
+    },
+    {
+      "id": 25,
+      "platform": "switch",
+      "image": "./assets/img/switch/breath-of-the-wild.webp",
+      "title": "Breath of the Wild",
+      "genres": ["Adventure", "Action"],
+      "prices": {
+        "base": 40,
+        "final": 24
+      }
+    },
+    {
+      "id": 26,
+      "platform": "switch",
+      "image": "./assets/img/switch/nightmare-reaper.webp",
+      "title": "Nightmare Reaper",
+      "genres": ["Shooter", "Action"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 27,
+      "platform": "switch",
+      "image": "./assets/img/switch/xenoblade-chronicles.webp",
+      "title": "Xenoblade Chronicles",
+      "genres": ["Action RPG", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 32
+      }
+    },
+    {
+      "id": 28,
+      "platform": "switch",
+      "image": "./assets/img/switch/spirits-of-edo.webp",
+      "title": "Winter's Wish: Spirits of Edo",
+      "genres": ["Adventure", "Visual Novel"],
+      "prices": {
+        "base": 30,
+        "final": 27
+      }
+    },
+    {
+      "id": 29,
+      "platform": "switch",
+      "image": "./assets/img/switch/xenoverse-2.webp",
+      "title": "Dragon Ball: Xenoverse 2",
+      "genres": ["Fighting", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 30,
+      "platform": "switch",
+      "image": "./assets/img/switch/forgotten-land.webp",
+      "title": "Kirby and the Forgotten Land",
+      "genres": ["Adventure", "Platform"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 31,
+      "platform": "switch",
+      "image": "./assets/img/switch/super-mario-party.webp",
+      "title": "Super Mario Party",
+      "genres": ["Party", "Multiplayer"],
+      "prices": {
+        "base": 40,
+        "final": 32
+      }
+    },
+    {
+      "id": 32,
+      "platform": "switch",
+      "image": "./assets/img/switch/shining-pearl.webp",
+      "title": "Pokémon: Shining Pearl",
+      "genres": ["RPG", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 33,
+      "platform": "switch",
+      "image": "./assets/img/switch/pac-man-world.webp",
+      "title": "Pac-Man World",
+      "genres": ["Platform", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 27
+      }
+    },
+    {
+      "id": 34,
+      "platform": "switch",
+      "image": "./assets/img/switch/mario-kart-8.webp",
+      "title": "Mario Kart 8 Deluxe",
+      "genres": ["Racing", "Action"],
+      "prices": {
+        "base": 30,
+        "final": 24
+      }
+    },
+    {
+      "id": 35,
+      "platform": "switch",
+      "image": "./assets/img/switch/dark-moon.webp",
+      "title": "Luigi's Mansion: Dark Moon",
+      "genres": ["Adventure", "Action"],
+      "prices": {
+        "base": 30,
+        "final": 24
+      }
+    },
+    {
+      "id": 36,
+      "platform": "switch",
+      "image": "./assets/img/switch/bayonetta-3.webp",
+      "title": "Bayonetta 3",
+      "genres": ["Adventure", "Action"],
+      "prices": {
+        "base": 30,
+        "final": 21
+      }
+    },
+    {
+      "id": 37,
+
+      "image": "./assets/img/xbox/apex-legends.webp",
+      "title": "Apex Legends",
+      "genres": ["Shooter", "Battle Royale"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 38,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/mass-effect.webp",
+      "title": "Mass Effect",
+      "genres": ["Shooter", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 28
+      }
+    },
+    {
+      "id": 39,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/redfall.webp",
+      "title": "Redfall",
+      "genres": ["Shooter", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 40,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/starfield.webp",
+      "title": "Starfield",
+      "genres": ["Shooter", "Action"],
+      "prices": {
+        "base": 40,
+        "final": 28
+      }
+    },
+    {
+      "id": 41,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/gears-5.webp",
+      "title": "Gears 5",
+      "genres": ["Shooter", "Action"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 42,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/it-takes-two.webp",
+      "title": "It Takes Two",
+      "genres": ["Platform", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 15
+      }
+    },
+    {
+      "id": 43,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/sea-of-thieves.webp",
+      "title": "Sea of Thieves",
+      "genres": ["Fighting", "Action"],
+      "prices": {
+        "base": 40,
+        "final": 20
+      }
+    },
+    {
+      "id": 44,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/halo-infinite.webp",
+      "title": "Halo Infinite",
+      "genres": ["Shooter", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 20
+      }
+    },
+    {
+      "id": 45,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/elden-ring.webp",
+      "title": "Elden Ring",
+      "genres": ["Adventure", "Action"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 46,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/forza-horizon-5.webp",
+      "title": "Forza Horizon 5",
+      "genres": ["Racing", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 27
+      }
+    },
+    {
+      "id": 47,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/star-wars-jedi-survivor.webp",
+      "title": "Star Wars: Jedi Survivor",
+      "genres": ["Action", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 21
+      }
+    },
+    {
+      "id": 48,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/hitman-3.webp",
+      "title": "Halo Infinite",
+      "genres": ["Shooter", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 21
+      }
+    },
+    {
+      "id": 49,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/the-quarry.webp",
+      "title": "The Quarry",
+      "genres": ["Survival Horror", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 32
+      }
+    },
+    {
+      "id": 50,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/wwe-2k23.webp",
+      "title": "WWE 2K23",
+      "genres": ["Fighting", "Sports"],
+      "prices": {
+        "base": 30,
+        "final": 27
+      }
+    },
+    {
+      "id": 51,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/sonic-frontiers.webp",
+      "title": "Sonic Frontiers",
+      "genres": ["Platform", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 28
+      }
+    },
+    {
+      "id": 52,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/mortal-kombat-11.webp",
+      "title": "Mortal Kombat 11",
+      "genres": ["Fighting", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 32
+      }
+    },
+    {
+      "id": 53,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/gta-auto-v.webp",
+      "title": "Grand Theft Auto V",
+      "genres": ["Action", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 32
+      }
+    },
+    {
+      "id": 54,
+      "platform": "xbox",
+      "image": "./assets/img/xbox/fight-forever.webp",
+      "title": "AEW: Fight Forever",
+      "genres": ["Fighting", "Sports"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 55,
+      "platform": "pc",
+      "image": "./assets/img/pc/octopath-traveler-ii.webp",
+      "title": "Octopath Traveler II",
+      "genres": ["RPG", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 27
+      }
+    },
+    {
+      "id": 56,
+      "platform": "pc",
+      "image": "./assets/img/pc/dead-cells.webp",
+      "title": "Dead Cells",
+      "genres": ["Platform", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 15
+      }
+    },
+    {
+      "id": 57,
+      "platform": "pc",
+      "image": "./assets/img/pc/mortal-kombat-1.webp",
+      "title": "Mortal Kombat 1",
+      "genres": ["Fighting", "Action"],
+      "prices": {
+        "base": 30,
+        "final": 18
+      }
+    },
+    {
+      "id": 58,
+      "platform": "pc",
+      "image": "./assets/img/pc/age-of-wonders-4.webp",
+      "title": "Age of Wonders 4",
+      "genres": ["Strategy", "Fantasy"],
+      "prices": {
+        "base": 30,
+        "final": 15
+      }
+    },
+    {
+      "id": 59,
+      "platform": "pc",
+      "image": "./assets/img/pc/the-legend-of-heroes.webp",
+      "title": "Trails to Azure",
+      "genres": ["RPG", "Strategy"],
+      "prices": {
+        "base": 30,
+        "final": 27
+      }
+    },
+    {
+      "id": 60,
+      "platform": "pc",
+      "image": "./assets/img/pc/resident-evil-4.webp",
+      "title": "Resident Evil 4",
+      "genres": ["Survival Horror", "Puzzle"],
+      "prices": {
+        "base": 40,
+        "final": 28
+      }
+    },
+    {
+      "id": 61,
+      "platform": "pc",
+      "image": "./assets/img/pc/dead-space.webp",
+      "title": "Dead Space",
+      "genres": ["Survival Horror", "Shooter"],
+      "prices": {
+        "base": 30,
+        "final": 27
+      }
+    },
+    {
+      "id": 62,
+      "platform": "pc",
+      "image": "./assets/img/pc/hogwarts-legacy.webp",
+      "title": "Howgwarts Legacy",
+      "genres": ["Action RPG", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 63,
+      "platform": "pc",
+      "image": "./assets/img/pc/killer-frequency.webp",
+      "title": "Killer Frequency",
+      "genres": ["Puzzle", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 64,
+      "platform": "pc",
+      "image": "./assets/img/pc/protodroid-delta.webp",
+      "title": "Protodroid Delta",
+      "genres": ["Platform", "Shooter"],
+      "prices": {
+        "base": 40,
+        "final": 32
+      }
+    },
+    {
+      "id": 65,
+      "platform": "pc",
+      "image": "./assets/img/pc/exoprimal.webp",
+      "title": "Exoprimal",
+      "genres": ["Shooter", "Fighting"],
+      "prices": {
+        "base": 40,
+        "final": 28
+      }
+    },
+    {
+      "id": 66,
+      "platform": "pc",
+      "image": "./assets/img/pc/hi-fi-rush.webp",
+      "title": "Hi-Fi Rush",
+      "genres": ["Rhythm", "Platform"],
+      "prices": {
+        "base": 40,
+        "final": 20
+      }
+    },
+    {
+      "id": 67,
+      "platform": "pc",
+      "image": "./assets/img/pc/alien-dawn.webp",
+      "title": "Alien Dawn",
+      "genres": ["Simulation", "Strategy"],
+      "prices": {
+        "base": 30,
+        "final": 27
+      }
+    },
+    {
+      "id": 68,
+      "platform": "pc",
+      "image": "./assets/img/pc/nova-lands.webp",
+      "title": "Nova Lands",
+      "genres": ["Simulation", "Shooter"],
+      "prices": {
+        "base": 40,
+        "final": 28
+      }
+    },
+    {
+      "id": 69,
+      "platform": "pc",
+      "image": "./assets/img/pc/shogun-showdown.webp",
+      "title": "Shogun Showdown",
+      "genres": ["RPG", "Strategy"],
+      "prices": {
+        "base": 30,
+        "final": 27
+      }
+    },
+    {
+      "id": 70,
+      "platform": "pc",
+      "image": "./assets/img/pc/propnight.webp",
+      "title": "Propnight",
+      "genres": ["Action", "Adventure"],
+      "prices": {
+        "base": 40,
+        "final": 36
+      }
+    },
+    {
+      "id": 71,
+      "platform": "pc",
+      "image": "./assets/img/pc/trepang-2.webp",
+      "title": "Trepang²",
+      "genres": ["Shooter", "Action"],
+      "prices": {
+        "base": 30,
+        "final": 24
+      }
+    },
+    {
+      "id": 72,
+      "platform": "pc",
+      "image": "./assets/img/pc/phantom-detective.webp",
+      "title": "Ghost Trick",
+      "genres": ["Puzzle", "Adventure"],
+      "prices": {
+        "base": 30,
+        "final": 15
+      }
+    }
+  ]
+}
