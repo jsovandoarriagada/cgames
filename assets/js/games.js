@@ -12,7 +12,7 @@ const loadGames = async () => {
 
 const displayHomeGames = () => {
   for (let i = 0; i < games.length; i++) {
-    if (games[i].platform == "switch") {
+    if (games[i].featured == true) {
       sliderGames.push(games[i]);
     }
   }
